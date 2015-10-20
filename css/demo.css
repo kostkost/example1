@@ -189,3 +189,49 @@ p.info {
 		text-indent: 30px;
 	}
 }
+
+
+
+header {
+    background: url(http://asphalt-art.com.ua/wp-content/uploads/GERB-na-prozrachnoy-plyonke.jpg) left center no-repeat;
+    background-size: 60px;
+}
+header p, header h1 {
+    margin-left: 50px !important;
+}
+
+.mediabox h3 {
+    text-transform: uppercase;
+}
+.mediabox a {
+    color: #47a3da !important;
+    text-align: left;
+    position: relative;
+    font-size: 16px !important;
+    line-height: 14px !important;
+    padding: 0.5em 1em 0.5em 1em !important;
+    white-space: normal !important;
+}
+.mediabox a:hover {
+    color: #000 !important;
+}
+.mediabox .button {
+    text-align: center;
+    background-color: #47a3da;
+    border: none;
+    width: 100% !important;
+    margin: 1em auto !important;
+    padding: 1em !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.mediabox .button span {
+    background: white;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    color: #47a3da;
+}
+
+nav i {
+    padding: 0.5em;
+}
