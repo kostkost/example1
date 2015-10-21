@@ -200,6 +200,9 @@ header p, header h1 {
     margin-left: 50px !important;
 }
 
+.mediabox {
+    height: 580px;
+}
 .mediabox h3 {
     text-transform: uppercase;
 }
@@ -235,3 +238,5 @@ header p, header h1 {
 nav i {
     padding: 0.5em;
 }
+
+
