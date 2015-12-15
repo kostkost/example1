@@ -9,18 +9,48 @@ a:hover {
     color: #0fb2fc;
 }
 
+
+
+/* HEADER */
+/* ------------------------------------------------------------------------ */
 .navbar {
     margin: 0;
+    font-family: 'Roboto Mono', sans-serif;
 }
 .navbar-brand {
     text-transform: uppercase;
 }
+.navbar-white {
+    background: rgba(255,255,255,.4) !important;
+    -webkit-transition: background 0.5s linear;
+       -moz-transition: background 0.5s linear;
+         -o-transition: background 0.5s linear;
+            transition: background 0.5s linear;
+}
+.white {
+    background: rgba(255,255,255,1) !important;    
+}
 
+
+
+/* HERO */
+/* ------------------------------------------------------------------------ */
 #hero {
-    background: url(img/hero_bg.jpg) center center;
+    background: url(img/hero_bg.jpg) center top;
     background-size: cover;
     background-attachment: fixed;
-    height: 270px;
+    height: 400px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+#hero .container {
+    height: 100%;
+    position: relative;
+}
+#hero .container .mid {
+/*    display: table;*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 #hero h1 {
     text-transform: uppercase;
@@ -34,9 +64,39 @@ a:hover {
 #hero a:hover {
     color: #fff;
 }
+#hero .form .input-group {
+    width: 100%;
+    margin-top: 1em;
+}
 
+
+
+/* TABS */
+/* ------------------------------------------------------------------------ */
+#tabs {
+    position: relative;
+    top: -3.2em;
+    font-family: 'Roboto Mono', sans-serif;
+}
+#tabs .nav-justified li {
+    font-size: 1.2em;
+    background: rgba(255,255,255,.6);
+}
+#tabs .nav-justified li a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* SERVICES */
+/* ------------------------------------------------------------------------ */
 #services {
-    margin-top: 3em;
+    background: #fff;
 }
 #services .col-sm-6 {
     padding-top: 3em;
@@ -76,11 +136,26 @@ a:hover {
 }
 #services h3 {
     text-transform: uppercase;
+    font-family: 'Roboto Mono', sans-serif;
 }
 #services ul a {
     color: #000;
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+#services ul a:hover {
+    color: #03a9f4;
+    text-decoration: none;
 }
 
+
+
+
+
+/* FOOTER */
+/* ------------------------------------------------------------------------ */
 footer {
     padding-bottom: 3em;
 }

@@ -9,13 +9,14 @@
         <link href="css/material.css" rel="stylesheet">
         <link href="css/ripples.min.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Mono&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link href="style.css" rel="stylesheet">
 
     </head>
 
     <body>
 
-<div class="navbar navbar-white">
+<div class="navbar navbar-white navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -38,27 +39,44 @@
    
 <section id="hero">
     <div class="container text-center">
-        <h1>Офіційний портал електронних послуг</h1>
-        <form class="form col-sm-offset-4 col-sm-4">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Пошук послуги">
-              <div class="input-group-btn">
-                <a class="btn btn-info btn-raised"><i class="fa fa-search"></i></a>
-              </div>
-            </div>
-            <p><a href="">62 — послуги доступно онлайн</a> <a href="">10 — дуже скоро</a></p>
-        </form>        
+        <div class="mid">
+            <h1>Офіційний портал електронних послуг</h1>
+            <form class="form col-sm-offset-4 col-sm-4">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Пошук послуги">
+                  <div class="input-group-btn">
+                    <a class="btn btn-info btn-raised"><i class="fa fa-search"></i></a>
+                  </div>
+                </div>
+                <div class="input-group">
+<select class="form-control">
+  <option>Оберіть установу</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+                </div>
+<!--                <p><a href="">62 — послуги доступно онлайн</a> <a href="">10 — дуже скоро</a></p>-->
+            </form>  
+        </div>
+    </div>
+</section>
+        
+<section id="tabs">
+    <div class="container">
+          <!-- Nav tabs -->
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#citizen" aria-controls="home" role="tab" data-toggle="tab">Громадянам</a></li>
+        <li role="presentation"><a href="#business" aria-controls="profile" role="tab" data-toggle="tab">Бізнесу</a></li>
+      </ul>
     </div>
 </section>
         
 <section id="services">
     <div class="container">
         
-      <!-- Nav tabs -->
-  <ul class="nav nav-tabs nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#citizen" aria-controls="home" role="tab" data-toggle="tab">Громадянам</a></li>
-    <li role="presentation"><a href="#business" aria-controls="profile" role="tab" data-toggle="tab">Бізнесу</a></li>
-  </ul>
+
 
   <!-- Tab panes -->
   <div class="tab-content">
@@ -157,7 +175,7 @@
                 $.material.init();
             });
         </script>
-
+        <script src="main.js"></script>
     </body>
 
 </html>
