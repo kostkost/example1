@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+a {
+    color: #03a9f4;
+}
+a:hover {
+    color: #0fb2fc;
+}
+
+.navbar {
+    margin: 0;
+}
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+#hero {
+    background: url(img/hero_bg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 270px;
+}
+#hero h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+#hero .btn {
+    margin: 0;
+    border: 2px solid #03a9f4;
+}
+#hero a:hover {
+    color: #fff;
+}
+
+#services {
+    margin-top: 3em;
+}
+#services .col-sm-6 {
+    padding-top: 3em;
+    margin-top: 1em;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#citizen .col-sm-6:nth-child(1) {
+    background-image: url(img/icon_police.png);
+}
+#citizen .col-sm-6:nth-child(2) {
+    background-image: url(img/icon_interaction.png);    
+}
+#citizen .col-sm-6:nth-child(4) {
+    background-image: url(img/icon_home.png);    
+}
+#citizen .col-sm-6:nth-child(5) {
+    background-image: url(img/icon_cart.png);    
+}
+#citizen .col-sm-6:nth-child(7) {
+    background-image: url(img/icon_fam.png);    
+}
+#citizen .col-sm-6:nth-child(8) {
+    background-image: url(img/icon_doc.png);    
+}
+#business .col-sm-6:nth-child(1) {
+    background-image: url(img/icon_home.png);
+}
+#business .col-sm-6:nth-child(2) {
+/*    background-image: url(img/icon_home.png);*/
+}
+#business .col-sm-6:nth-child(4) {
+/*    background-image: url(img/icon_home.png);*/
+}
+#business .col-sm-6:nth-child(5) {
+    background-image: url(img/icon_doc.png);
+}
+#services h3 {
+    text-transform: uppercase;
+}
+#services ul a {
+    color: #000;
+}
+
+footer {
+    padding-bottom: 3em;
+}
